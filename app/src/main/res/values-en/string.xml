@@ -1,0 +1,32 @@
+<resources>
+    <string name="tarea2">Task2</string>
+    <string name="open_drawer">Open menu</string>
+    <string name="close_drawer">Close menu</string>
+    <string name="toastText">"Character has been selected: "</string>
+    <string name="botonAcept">Acept</string>
+    <string name="aboutText">Application developed by Ramón López Fontanilla. Version 1.0.</string>
+    <string name="SnackbarText">Welcome to the world of Mario</string>
+    <string name="titleToolbarDetails">Character Detail</string>
+    <string name="titleToolbarList">Characters List</string>
+    <string name="titleToolbarAdjust">Adjust</string>
+    <string name="marioWhois">Our plumber protagonist.</string>
+    <string name="marioDescription">He has a great sense of heroism. He is brave, optimistic and always willing to save Princess Peach and the Mushroom Kingdom.</string>
+    <string name="marioHabilities">He can jump much higher than normal humans. He can perform flips and wall jumps to get over obstacles.</string>
+    <string name="luigiWhois">"Mario's plumber brother."</string>
+    <string name="luigiDescription">He is taller and thinner, and a little more shy than Mario, but he is always willing to help him on his adventures.</string>
+    <string name="luigiHabilities">He can jump higher than Mario, although it takes him longer to stop after running. In some games, he can stay in the air a little longer after jumping.</string>
+    <string name="peachWhois">Ruler of the Mushroom Kingdom.</string>
+    <string name="peachDescription">She often needs to be rescued from Bowser. She is kind, graceful, and always cares about her subjects.</string>
+    <string name="peachHabilities">She can float for a few seconds after a jump thanks to her dress. In certain games, she can heal other characters or herself and can use magic or special attacks with her umbrella.</string>
+    <string name="toadWhois">"Princess Peach's assistant."</string>
+    <string name="toadDescription">He is brave and always tries to help Mario in his mission.</string>
+    <string name="toadHabilities">He can run faster than other characters. Despite his small size, he can carry objects with ease. In certain games, he is less affected by some attacks.</string>
+    <string name="about">About...</string>
+    <string name="switch_lenguaje">Español</string>
+    <string name="lateralHome">Home</string>
+    <string name="lateralAdjust">Adjust</string>
+    <string name="lateralSubtitle">My First App</string>
+    <string name="preferences_language">LANGUAGE</string>
+    <string name="preferences_intro">Switch the app´s language</string>
+    <string name="preferences_english">Activate english</string>
+</resources>

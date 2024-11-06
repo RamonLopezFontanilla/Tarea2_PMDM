@@ -1,0 +1,33 @@
+<resources>
+    <string name="tarea2">Tarea2</string>
+    <string name="open_drawer">Abrir menú</string>
+    <string name="close_drawer">Cerrar menú</string>
+    <string name="toastText">"Se ha seleccionado el personaje "</string>
+    <string name="botonAcept">Aceptar</string>
+    <string name="aboutText">Aplicación desarrollada por Ramón López Fontanilla. Versión 1.0.</string>
+    <string name="SnackbarText">Bienvenidos al mundo de Mario</string>
+    <string name="titleToolbarDetails">Detalle del Personaje</string>
+    <string name="titleToolbarList">Lista de Personajes</string>
+    <string name="titleToolbarAdjust">Ajustes</string>
+    <string name="marioWhois">Nuestro fontanero protagonista.</string>
+    <string name="marioDescription">Tiene gran sentido del heroísmo. Es valiente, optimista y siempre está dispuesto a salvar a la Princesa Peach y el Reino Champiñón.</string>
+    <string name="marioHabilities">Puede saltar mucho más alto que los humanos normales. Puede realizar volteretas y saltos de pared para sortear obstáculos.</string>
+    <string name="luigiWhois">El fontanero hermano de Mario.</string>
+    <string name="luigiDescription">Es más alto y delgado, y un poco más tímido que Mario, pero siempre está dispuesto a ayudarlo en sus aventuras.</string>
+    <string name="luigiHabilities">Puede saltar más alto que Mario, aunque le toma más tiempo frenar después de correr.En algunos juegos, puede mantenerse en el aire un poco más de tiempo después de saltar.</string>
+    <string name="peachWhois">Gobernante del Reino Champiñón.</string>
+    <string name="peachDescription">A menudo necesita ser rescatada de Bowser. Es amable, elegante y siempre se preocupa por sus súbditos.</string>
+    <string name="peachHabilities">Puede flotar por unos segundos después de un salto gracias a su vestido. En ciertos juegos, puede curar a otros personajes o a sí misma y puede usar ataques mágicos o especiales con su paraguas.</string>
+    <string name="toadWhois">Asistente de la Princesa Peach.</string>
+    <string name="toadDescription">Es valiente y siempre trata de ayudar a Mario en su misión.</string>
+    <string name="toadHabilities">Puede correr más rápido que otros personajes. A pesar de su pequeño tamaño, puede cargar objetos con facilidad. En ciertos juegos, es menos afectado por algunos ataques.</string>
+    <string name="about">Acerca de...</string>
+    <string name="switch_lenguaje">English</string>
+    <string name="lateralHome">Inicio</string>
+    <string name="lateralAdjust">Ajustes</string>
+    <string name="lateralSubtitle">Mi Primera App</string>
+    <string name="preferences_language">IDIOMA</string>
+    <string name="preferences_intro">Cambia el idioma de la aplicación</string>
+    <string name="preferences_english">Activar inglés</string>
+
+</resources>

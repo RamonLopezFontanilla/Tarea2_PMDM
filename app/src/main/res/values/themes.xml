@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenAnimatedIcon">@drawable/portada</item>
+        <item name="windowSplashScreenAnimationDuration">3000</item>
+        <item name="windowSplashScreenIconBackgroundColor">#F8B451</item>
+        <item name="windowSplashScreenBackground">#F8B451</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Tarea2</item>
+    </style>
+    <style name="Base.Theme.Tarea2" parent="Theme.Material3.DayNight">
+    </style>
+
+</resources>

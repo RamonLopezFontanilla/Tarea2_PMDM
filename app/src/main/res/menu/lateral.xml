@@ -1,0 +1,16 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/item_home"
+            android:icon="@android:drawable/ic_menu_revert"
+            android:title="@string/lateralHome" />
+        <item
+            android:id="@+id/item_adjust"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/lateralAdjust" />
+    </group>
+
+
+</menu>
