@@ -1,14 +1,14 @@
 package com.example.tarea2;
 
 /**
- *
  * Esta clase infla sólo las vistas necesarias, la de los elementos visibles
  */
 
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.tarea2.databinding.PersonCardviewBinding;
 
-public class PersonViewHolder extends RecyclerView.ViewHolder{
+public class PersonViewHolder extends RecyclerView.ViewHolder {
 
     private final PersonCardviewBinding binding;
 
@@ -31,7 +31,7 @@ public class PersonViewHolder extends RecyclerView.ViewHolder{
      * @param person Objeto personaje
      *
      */
-    public void bind(PersonData person){
+    public void bind(PersonData person) {
         binding.fotoCard.setImageResource(person.getImage());
         binding.nameCard.setText(person.getName());
         binding.whoIsCard.setText(person.getWhois());

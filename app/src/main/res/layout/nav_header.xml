@@ -1,5 +1,4 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/gradiente"
@@ -8,24 +7,25 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="150dp"
-        android:src="@drawable/portada"
-        android:layout_marginTop="60dp"/>
+        android:layout_marginTop="60dp"
+        android:src="@drawable/portada" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mario Bros"
-        android:textSize="30sp"
-        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
         android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="Mario Bros"
         android:textColor="#090909"
-        android:textStyle="bold"
-        android:layout_marginBottom="10dp"/>
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
-    <TextView style="@style/Cabecera_lateral"
+    <TextView
+        style="@style/Cabecera_lateral"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/lateralSubtitle"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:text="@string/lateralSubtitle" />
 
 </LinearLayout>

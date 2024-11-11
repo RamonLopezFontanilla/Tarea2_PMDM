@@ -1,10 +1,8 @@
 package com.example.tarea2;
 
 /**
- *
  * Esta clase representa un personaje
  * Contiene la información sobre el personaje
- *
  */
 public class PersonData {
     private final String name;

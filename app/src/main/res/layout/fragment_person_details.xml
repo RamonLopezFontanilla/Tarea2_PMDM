@@ -1,33 +1,35 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="20dp"
-    android:gravity="center_horizontal">
+    android:padding="20dp">
 
-    <TextView style="@style/Cabecera_personajes"
+    <TextView
         android:id="@+id/person_name"
+        style="@style/Cabecera_personajes"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="20dp"
-        android:text="Nombre"/>
+        android:text="Nombre" />
 
     <ImageView
         android:id="@+id/foto_person"
         android:layout_width="wrap_content"
         android:layout_height="350dp"
-        android:src="@drawable/luigi"/>
+        android:src="@drawable/luigi" />
 
-    <TextView style="@style/Textos_personajes"
+    <TextView
         android:id="@+id/person_description"
+        style="@style/Textos_personajes"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Descripcion"/>
+        android:text="Descripcion" />
 
-    <TextView  style="@style/Textos_personajes"
+    <TextView
         android:id="@+id/person_habilities"
+        style="@style/Textos_personajes"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Habilidades"/>
+        android:text="Habilidades" />
 
 </LinearLayout>

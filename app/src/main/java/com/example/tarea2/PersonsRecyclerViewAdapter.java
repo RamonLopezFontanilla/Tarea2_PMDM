@@ -1,18 +1,19 @@
 package com.example.tarea2;
 
 /**
- *
  * Esta clase actúa como intermediario entre los datos que queremos mostrar y las vistas
- *
  */
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.tarea2.databinding.PersonCardviewBinding;
+
 import java.util.ArrayList;
 
 public class PersonsRecyclerViewAdapter extends RecyclerView.Adapter<PersonViewHolder> {
@@ -44,7 +45,7 @@ public class PersonsRecyclerViewAdapter extends RecyclerView.Adapter<PersonViewH
     @NonNull
     @Override
     public PersonViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        PersonCardviewBinding binding = PersonCardviewBinding.inflate(LayoutInflater.from(parent.getContext()),parent,false);
+        PersonCardviewBinding binding = PersonCardviewBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false);
         return new PersonViewHolder(binding);
     }
 
@@ -61,7 +62,7 @@ public class PersonsRecyclerViewAdapter extends RecyclerView.Adapter<PersonViewH
     public void onBindViewHolder(@NonNull PersonViewHolder holder, int position) {
         PersonData currentPerson = this.persons.get(position);
         holder.bind(currentPerson);
-        holder.itemView.setOnClickListener(view -> itemClicked(currentPerson,view));
+        holder.itemView.setOnClickListener(view -> itemClicked(currentPerson, view));
     }
 
     /**
@@ -73,7 +74,7 @@ public class PersonsRecyclerViewAdapter extends RecyclerView.Adapter<PersonViewH
      *
      */
     private void itemClicked(PersonData currentPerson, View view) {
-        ((MainActivity)context).personSelectioned(currentPerson, view);
+        ((MainActivity) context).personSelectioned(currentPerson, view);
     }
 
     /**
@@ -83,6 +84,6 @@ public class PersonsRecyclerViewAdapter extends RecyclerView.Adapter<PersonViewH
      */
     @Override
     public int getItemCount() {
-        return persons.size() ;
+        return persons.size();
     }
 }

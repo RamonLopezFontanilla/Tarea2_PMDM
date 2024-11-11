@@ -1,11 +1,10 @@
 package com.example.tarea2;
 
 /**
- *
  * Esta clase controla la Actividad Principal del proyecto, encargandose de
  * Los controles de la ActionBar, El DrawerMenu, El contenedor de fragments
- *
  */
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -17,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -28,9 +28,11 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 import androidx.preference.PreferenceManager;
+
 import com.example.tarea2.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
+
 import java.util.Locale;
 
 
@@ -75,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         //declaración del ViewBinder
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
 
         /*******************************************************************************************
          *                             DrawerLayout con menú de navegación                         *
@@ -167,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
      */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.contextual,menu);
+        getMenuInflater().inflate(R.menu.contextual, menu);
         return true;
     }
 
@@ -181,14 +184,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         //controla el menú contextual
-        if(item.getItemId()==R.id.about){
+        if (item.getItemId() == R.id.about) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle(R.string.about);
             builder.setMessage(R.string.aboutText);
-            builder.setPositiveButton(R.string.botonAcept,new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            dialog.cancel();
-                        }
+            builder.setPositiveButton(R.string.botonAcept, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    dialog.cancel();
+                }
             });
             builder.show();
         }
@@ -206,18 +209,18 @@ public class MainActivity extends AppCompatActivity {
      * @param view Vista asociada al gráfico de navegación
      *
      **/
-    public void personSelectioned(PersonData person, View view){
+    public void personSelectioned(PersonData person, View view) {
         Bundle bundle = new Bundle();
         bundle.putString("name", person.getName());
-        bundle.putString("description",person.getDescription());
-        bundle.putString("habilities",person.getHabilities());
-        bundle.putInt("image",person.getImage());
+        bundle.putString("description", person.getDescription());
+        bundle.putString("habilities", person.getHabilities());
+        bundle.putInt("image", person.getImage());
 
         //mensaje Toast con la elección del personaje
-        Toast.makeText(this,getString(R.string.toastText)+person.getName(),Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.toastText) + person.getName(), Toast.LENGTH_SHORT).show();
 
         //mostrar fragment de detalle del personaje
-        Navigation.findNavController(view).navigate(R.id.personDetails,bundle);
+        Navigation.findNavController(view).navigate(R.id.personDetails, bundle);
     }
 
     /**
@@ -235,7 +238,7 @@ public class MainActivity extends AppCompatActivity {
      * Método que implementa el botón Back con el NavController
      * @return
      *
-    **/
+     **/
     @Override
     public boolean onSupportNavigateUp() {
         return navController.navigateUp() || super.onSupportNavigateUp();

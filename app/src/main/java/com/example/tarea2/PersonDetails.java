@@ -1,20 +1,20 @@
 package com.example.tarea2;
 
 /**
- *
  * Esta clase gestiona la vista de la SharedPreferences: xml/preferences.xml, que a su vez contiene
  * otra vista llamada preferences_header.xml
- *
  */
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
 import com.example.tarea2.databinding.FragmentPersonDetailsBinding;
 
 public class PersonDetails extends Fragment {
@@ -81,8 +81,8 @@ public class PersonDetails extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        if(getActivity()!=null){
-            ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.titleToolbarDetails);
+        if (getActivity() != null) {
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.titleToolbarDetails);
         }
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Cabecera_personajes"
-        parent="MaterialAlertDialog.Material3.Title.Icon">
+
+    <style name="Cabecera_personajes" parent="MaterialAlertDialog.Material3.Title.Icon">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">40sp</item>
@@ -11,11 +11,9 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="Textos_personajes"
-        parent="@style/MaterialAlertDialog.Material3">
+    <style name="Textos_personajes" parent="@style/MaterialAlertDialog.Material3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#000000</item>
         <item name="android:textSize">17sp</item>
         <item name="android:fontFamily">serif-monospace</item>
         <item name="android:justificationMode">inter_word</item>
@@ -23,31 +21,25 @@
         <item name="android:layout_marginTop">10dp</item>
     </style>
 
-    <style name="Cabecera_lateral"
-        parent="@style/MaterialAlertDialog.Material3">
+    <style name="Cabecera_lateral" parent="@style/MaterialAlertDialog.Material3">
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:fontFamily">serif-monospace</item>
-        <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Titulo_cardview"
-        parent="@style/MaterialAlertDialog.Material3">
+    <style name="Titulo_cardview" parent="@style/MaterialAlertDialog.Material3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">50sp</item>
-        <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">serif-monospace</item>
     </style>
 
-    <style name="Texto_cardview"
-        parent="@style/MaterialAlertDialog.Material3">
+    <style name="Texto_cardview" parent="@style/MaterialAlertDialog.Material3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">serif-monospace</item>
     </style>

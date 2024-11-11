@@ -1,9 +1,7 @@
 package com.example.tarea2;
 
 /**
- *
  * Esta clase gestiona la vista del ajustes de idioma de la App: fragment_person_details.xml
- *
  */
 
 import android.content.Intent;
@@ -14,12 +12,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
+
 import java.util.Locale;
 
 public class PreferencesFragment extends PreferenceFragmentCompat {
@@ -74,8 +74,8 @@ public class PreferencesFragment extends PreferenceFragmentCompat {
     @Override
     public void onStart() {
         super.onStart();
-        if(getActivity()!=null){
-            ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.titleToolbarAdjust);
+        if (getActivity() != null) {
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.titleToolbarAdjust);
         }
     }
 }
